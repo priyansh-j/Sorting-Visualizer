@@ -59,7 +59,7 @@ function createNewArray(len=60){
     deleteChild()
     arr=[]
     for(i=0;i<len;i++){
-        arr.push(Math.floor(Math.random()*250)+1)
+        arr.push(Math.floor(Math.random()*250+1))
     }
     console.log(arr)
     const bars=document.querySelector('.bars');
